@@ -31,8 +31,8 @@ def backspace():
 # FIRST ROW
 Button(text="%", font=("Consolas", 15), command=lambda: input_num("%")).place(x=20, y=110, height=50, width=70)
 Button(text="CE", font=("Consolas", 14),command=clear_display).place(x=100, y=110, height=50, width=70)
-Button(text="C", font=("Consolas", 14),command=clear_display).place(x=180, y=110, height=50, width=70)
-Button(text="⌫", font=("Consolas", 12),command=backspace).place(x=260, y=110, height=50, width=70)
+Button(text="C", font=("Consolas", 14),bg="#e26737",command=clear_display).place(x=180, y=110, height=50, width=70)
+Button(text="⌫", font=("Consolas", 12),bg="#e26737",command=backspace).place(x=260, y=110, height=50, width=70)
 
 # SECOND ROW
 Button(text="(", font=("Consolas", 15), command=lambda: input_num("(")).place(x=20, y=170, height=50, width=70)
