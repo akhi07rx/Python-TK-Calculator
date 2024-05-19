@@ -21,7 +21,7 @@ def input_num(num):
     input_box.insert(END, num)
     
 def clear_display():
-    input_box.delete(0,"end")
+    input_box.delete(0,END)
     
 def backspace():
     bs = input_box.get()
