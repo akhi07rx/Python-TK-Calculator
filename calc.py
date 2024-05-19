@@ -32,11 +32,11 @@ def backspace():
 Button(text="%", font=("Consolas", 15), command=lambda: input_num("%")).place(x=20, y=110, height=50, width=70)
 Button(text="CE", font=("Consolas", 14),command=clear_display).place(x=100, y=110, height=50, width=70)
 Button(text="C", font=("Consolas", 14),command=clear_display).place(x=180, y=110, height=50, width=70)
-Button(text="⌫", font=("Consolas", 12),bg="#E6784C",command=backspace).place(x=260, y=110, height=50, width=70)
+Button(text="⌫", font=("Consolas", 12),command=backspace).place(x=260, y=110, height=50, width=70)
 
 # SECOND ROW
 Button(text="(", font=("Consolas", 15), command=lambda: input_num("(")).place(x=20, y=170, height=50, width=70)
-Button(text="𝑥²", font=("Consolas", 15), command=lambda: input_num("𝑥²")).place(x=100, y=170, height=50, width=70)
+Button(text="𝑥²", font=("Consolas", 15), command=lambda: input_num("**2")).place(x=100, y=170, height=50, width=70)
 Button(text=")", font=("Consolas", 15), command=lambda: input_num(")")).place(x=180, y=170, height=50, width=70)
 Button(text="÷", font=("Consolas", 18),command=lambda: input_num("/")).place(x=260, y=170, height=50, width=70)
 
@@ -59,7 +59,7 @@ Button(text="3", font=("Consolas", 15), command=lambda: input_num(3)).place(x=18
 Button(text="+", font=("Consolas", 15), command=lambda: input_num("+")).place(x=260, y=350, height=50, width=70)
 
 # SIXTH ROW
-Button(text="+/-", font=("Consolas", 15), command=lambda: input_num("+/-")).place(x=20, y=410, height=50, width=70)
+Button(text="+/-", font=("Consolas", 15), command=lambda: input_num("-")).place(x=20, y=410, height=50, width=70)
 Button(text="0", font=("Consolas", 15), command=lambda: input_num(0)).place(x=100, y=410, height=50, width=70)
 Button(text=".", font=("Consolas", 15), command=lambda: input_num(".")).place(x=180, y=410, height=50, width=70)
 Button(text="=", font=("Consolas", 15), bg="#19a8b2", command=answer).place(x=260, y=410, height=50, width=70)
