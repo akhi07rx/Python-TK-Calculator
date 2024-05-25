@@ -29,12 +29,18 @@ The calculator has a designated input field where the user can enter the express
 
 ![image](https://github.com/akhi07rx/Python-TK-Calculator/assets/89210430/d754c4aa-4efc-4256-928f-b32273a05e33)
 
+![image](https://github.com/akhi07rx/Python-TK-Calculator/assets/89210430/32986ca2-a059-41e6-9635-c5892cfd7841)
+
+- calc v2 (Using CustomTkinter)
+
 <br />
 
 ## Requirements
 
 - Python 3.x
 - Tkinter library (included in most standard Python installations)
+
+- CustomTkinter library (v2)
 
 <br />
 
@@ -51,11 +57,12 @@ python calculator.py
 ```
 
 This will launch the calculator application.
+
 <br />
 
 ## Acknowledgments
 
-This code utilizes the Tkinter library, a Python library for developing graphical user interfaces.
+This code utilizes the Tkinter library, a Python library for developing graphical user interfaces. CustomTkinter provides enhanced features and a modern look, building on the capabilities of the standard Tkinter library.
 
 <br/>
 
